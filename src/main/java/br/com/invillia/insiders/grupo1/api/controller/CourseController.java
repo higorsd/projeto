@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/course")
 public class CourseController {
 
+    // Teste para primeiro commit
     @Autowired
     private CourseService courseService;
 
@@ -19,8 +20,5 @@ public class CourseController {
     public ResponseEntity<?> getById(@PathVariable(name="id") Long id) {
         return courseService.getById(id);
     }
-
-
-
 
 }
