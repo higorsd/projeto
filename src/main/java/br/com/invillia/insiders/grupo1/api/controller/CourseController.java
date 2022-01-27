@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CourseController {
 
     // Teste para primeiro commit
+    // Teste para segundo commit
     @Autowired
     private CourseService courseService;
 
